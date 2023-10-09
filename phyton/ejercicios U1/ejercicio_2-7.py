@@ -1,0 +1,5 @@
+n1 = input("dame el primer numero:")
+n2 = input("dame el segundo numero:")
+n3 = input("dame el tercer numero:")
+T = float(n1)+float(n2)+float(n3)
+print("la suma de todos los numeros es: " + str(n1) + " + " + str(n2) + " + " + str(n3) + " = " + str(round(T, 2)) )

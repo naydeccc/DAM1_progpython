@@ -1,0 +1,1 @@
+print(float(input("dame el primer numero: ")) + float(input("dame el segundo  numero: "))  + float(input("dame el tercer numero: ")))
