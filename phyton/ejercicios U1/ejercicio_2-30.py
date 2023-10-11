@@ -36,10 +36,10 @@ if total < 0:
 #while incremento < 0 or total < 0: posible mejora  
 #    print("funciona")
 serie = str("serie=>" + str(inicio) + "-")
-cont = inicio
-while( cont <= total):
+cont = 1
+while( cont < total):
     inicio = inicio + incremento
-    cont = cont + incremento
+    cont = cont + 1
     if cont < (total-1):
         serie =str(serie + str(inicio) + "..")
     else:
