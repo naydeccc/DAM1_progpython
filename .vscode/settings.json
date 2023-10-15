@@ -1,0 +1,5 @@
+{
+    "workbench.editor.mouseBackForwardToNavigate": true,
+    "workbench.editor.centeredLayoutAutoResize": true,
+    "workbench.editor.navigationScope": "default"
+}
