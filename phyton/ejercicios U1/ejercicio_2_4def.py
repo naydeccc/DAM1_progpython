@@ -2,5 +2,6 @@
 def temp (F):
     celsius = float(input("Dame una temperatura en grado Farenheit:"))
     fah = (celsius - 32) * 5/9
-    return "la temperatura en Farenheit es " + fah
-print("La temperatura en grados Farenheit es " + str(round(fah,2)) + " 10ºF (" + str(round(celsius,2)) + " ºC)")
+    return "la temperatura en Celsius es " + str(fah)
+F = 0
+print(temp(F))
