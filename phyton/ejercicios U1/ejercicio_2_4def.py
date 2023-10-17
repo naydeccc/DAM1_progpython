@@ -2,6 +2,6 @@
 def temp (F):
     celsius = float(input("Dame una temperatura en grado Farenheit:"))
     fah = (celsius - 32) * 5/9
-    return "la temperatura en Celsius es " + str(fah)
+    return "la temperatura en Celsius es " + str(round(fah,2))
 F = 0
 print(temp(F))
