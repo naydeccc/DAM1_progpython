@@ -8,8 +8,8 @@ from prueba1 import mayor_que
     (100, -100, 100),
     (-15, -1, -1),
     (-3, 8, 8),
-    (9, suma(-1, -2), 9)
+    (9, (-1, -2), 9)
     ]
 )
 def test_suma_params(input_n1, input_n2, expected):
-    assert suma(input_n1, input_n2) == expected
+    assert mayor_que(input_n1, input_n2) == expected
