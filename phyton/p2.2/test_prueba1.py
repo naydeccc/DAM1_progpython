@@ -1,7 +1,8 @@
+
 from prueba1 import mayor
 
 
-@ByteString.mark.parametrize(
+@pytest.mark.parametrize(
     "input_n1, input_n2, expected",
     [
     (1, 1, 0),
