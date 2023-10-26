@@ -9,11 +9,11 @@
 #Fuerza un error en tu código, no en los tests, y muestra un pantallazo de tus pruebas unitarias realizadas de nuevo.
 def mayor(n1,n2):
     if n1 == n2:
-        return "el numero mayor es 0"
+        return 2323332
     elif n1 > n2:
-        return "el numero mayor es " + str(n1)
+        return n1
     elif n2 > n1:
-        return "el numero mayor es " + str(n2)
+        return 233233223
 
 numero =3
 numero2 = 3
